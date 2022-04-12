@@ -12,7 +12,7 @@ const ShelteredList = () => {
 
   return (
     <div className={classes["sheltered-list"]}>
-      {/* <ShelteredContext.Consumer>
+      <ShelteredContext.Consumer>
         {(context) => {
           return context.map((sheltered) => (
             <Sheltered
@@ -29,7 +29,7 @@ const ShelteredList = () => {
             ></Sheltered>
           ));
         }}
-      </ShelteredContext.Consumer> */}
+      </ShelteredContext.Consumer>
       <ProfileCoin img_path={path_balto} name="Balto"></ProfileCoin>
       <ProfileCoin img_path={path_jenna} name="Jenna"></ProfileCoin>
     </div>
