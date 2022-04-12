@@ -1,0 +1,8 @@
+.sheltered-list {
+    background-color: var(--skn-wldrns-D);
+    max-width: 1000px;
+    display: flex;
+    flex-wrap:wrap;
+    z-index: var(--base-layer);
+    box-shadow: var(--primary-shadow-high);
+}

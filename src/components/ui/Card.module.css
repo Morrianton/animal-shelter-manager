@@ -1,0 +1,15 @@
+@import "../../index.css";
+
+.card {
+    background: var(--skn-wldrns-C-lin-grade-lght);
+    margin: var(--single-space);
+    height: var(--card-med-height);
+    width: var(--card-med-width);
+    z-index: var(--card-layer);
+    position: relative;
+    padding: 10px;
+    border-radius: var(--radius-small);
+    box-shadow: var(--secondary-shadow-high);  /* make color dynamic */
+}
+
+

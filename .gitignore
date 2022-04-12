@@ -1,0 +1,16 @@
+# DEPENDENCIES
+/node_modules
+
+# MISC
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+.vscode
+
+# PRODUCTION
+/build
+
+# TESTING
+/coverage

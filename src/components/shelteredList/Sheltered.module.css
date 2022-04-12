@@ -1,0 +1,25 @@
+@import "../../index.css";
+
+
+.sheltered {
+    background-color: var(--primary-color);
+    box-shadow: var(--secondary-shadow-low);
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    margin: calc(0.5 * var(--single-space));
+}
+
+.button {
+    box-shadow: var(--support-shadow-med);
+    transition: box-shadow 0.1s ease-out;
+}
+
+.button:active {
+    box-shadow: var(--priamry-shadow-low);
+}

@@ -1,0 +1,197 @@
+:root {
+  /* ACCENTS */
+  --radius-small: 5px;
+  --radius-med: 15px;
+  --radius-large: 30px;
+
+	/* DIMENSIONS */
+	--card-med-height: 400px;
+	--card-med-width: 300px;
+  --button-sml-height: 30px;
+  --button-sml-width: 90px;
+
+	/* PALETTEs */
+  --white-100: #FFF;
+  --gray-100: #888;
+  --black-100: #000;
+  --black-70: hsl(0, 0%, 0%, 0.7);
+  --black-35: hsl(0, 0%, 0%, 0.35);
+  --black-20: hsl(0, 0%, 0%, 0.2);
+  --black-10: hsl(0, 0%, 0%, 0.1);
+
+
+  /* Wilderness - skin centered */
+  --skn-wldrns-A-light: #7DB9D1;
+  --skn-wldrns-A-med: #6393A6;
+  --skn-wldrns-A-dark-100: #405F6B;
+  --skn-wldrns-A-dark-70: hsla(197, 25%, 34%, 0.7);
+  --skn-wldrns-A-dark-35: hsla(197, 25%, 34%, 0.35);
+  --skn-wldrns-A-dark-20: hsla(197, 25%, 34%, 0.2);
+  --skn-wldrns-A-dark-10: hsla(197, 25%, 34%, 0.1);
+
+  --skn-wldrns-B-light-100: #F2C1B6;
+  --skn-wldrns-B-light-70: hsl(11, 70%, 83%, 0.7);
+  --skn-wldrns-B-light-35: hsl(11, 70%, 83%, 0.35);
+  --skn-wldrns-B-light-20: hsl(11, 70%, 83%, 0.2);
+  --skn-wldrns-B-light-10: hsl(11, 70%, 83%, 0.1);
+  --skn-wldrns-B-med-100: #BF785D;
+  --skn-wldrns-B-med-70: hsl(17, 43%, 56%, 0.7);
+  --skn-wldrns-B-med-35: hsl(17, 43%, 56%, 0.35);
+  --skn-wldrns-B-med-20: hsl(17, 43%, 56%, 0.2);
+  --skn-wldrns-B-med-10: hsl(17, 43%, 56%, 0.1);
+  --skn-wldrns-B-dark-100: #733F34;
+  --skn-wldrns-B-dark-70: hsl(10, 38%, 33%, 0.7);
+  --skn-wldrns-B-dark-35: hsl(10, 38%, 33%, 0.35);
+  --skn-wldrns-B-dark-20: hsl(10, 38%, 33%, 0.2);
+  --skn-wldrns-B-dark-10: hsl(10, 38%, 33%, 0.1);
+
+
+  --skn-wldrns-C-light-100: #FFE9E0;
+  --skn-wldrns-C-light-70: hsl(17, 100%, 94%, 0.7);
+  --skn-wldrns-C-light-35: hsl(17, 100%, 94%, 0.35);
+  --skn-wldrns-C-light-20: hsl(17, 100%, 94%, 0.2);
+  --skn-wldrns-C-light-10: hsl(17, 100%, 94%, 0.1);
+  --skn-wldrns-C-med-100: #F2CBBD;
+  --skn-wldrns-C-dark-100: #73605A;
+
+  --skn-wldrns-D-light-100: #F2C1B6;
+  --skn-wldrns-D-light-70: hsl(11, 70%, 83%, 0.7);
+  --skn-wldrns-D-light-35: hsl(11, 70%, 83%, 0.35);
+  --skn-wldrns-D-light-20: hsl(11, 70%, 83%, 0.2);
+  --skn-wldrns-D-light-10: hsl(11, 70%, 83%, 0.1);
+  --skn-wldrns-D-med-100: #A65B4B;
+  --skn-wldrns-D-med-70: hsl(11, 38%, 47%, 0.7);
+  --skn-wldrns-D-med-35: hsl(11, 38%, 47%, 0.35);
+  --skn-wldrns-D-med-20: hsl(11, 38%, 47%, 0.2);
+  --skn-wldrns-D-med-10: hsl(11, 38%, 47%, 0.1);
+  --skn-wldrns-D-dark-100: #40281F;
+  --skn-wldrns-D-dark-70: hsl(16, 35%, 19%, 0.7);
+  --skn-wldrns-D-dark-35: hsl(16, 35%, 19%, 0.35);
+  --skn-wldrns-D-dark-20: hsl(16, 35%, 19%, 0.2);
+  --skn-wldrns-D-dark-10: hsl(16, 35%, 19%, 0.1);
+
+  --skn-wldrns-E-light-100: #BF625A;
+  --skn-wldrns-E-light-70: hsl(5, 44%, 55%, 0.7);
+  --skn-wldrns-E-light-35: hsl(5, 44%, 55%, 0.35);
+  --skn-wldrns-E-light-20: hsl(5, 44%, 55%, 0.2);
+  --skn-wldrns-E-light-10: hsl(5, 44%, 55%, 0.1);
+  --skn-wldrns-E-med-100: #733B36;
+  --skn-wldrns-E-med-70: hsl(5, 36%, 33%, 0.7);
+  --skn-wldrns-E-med-35: hsl(5, 36%, 33%, 0.35);
+  --skn-wldrns-E-med-20: hsl(5, 36%, 33%, 0.2);
+  --skn-wldrns-E-med-10: hsl(5, 36%, 33%, 0.1);
+  --skn-wldrns-E-dark-100: #331A18;
+  --skn-wldrns-E-dark-70: hsl(4, 36%, 15%, 0.7);
+  --skn-wldrns-E-dark-35: hsl(4, 36%, 15%, 0.35);
+  --skn-wldrns-E-dark-20: hsl(4, 36%, 15%, 0.2);
+  --skn-wldrns-E-dark-10: hsl(4, 36%, 15%, 0.1);
+
+  --skn-wldrns-C-lin-grade-lght: linear-gradient(0deg, rgba(242,203,189,1) 0%, rgba(255,255,255,1) 100%); 
+
+  /* Analogous - white centered */
+  --wht-anlgs-A: #FEECE4;
+  --wht-anlgs-B: #E6D2CF;
+  --wht-anlgs-C: #FDFDFD;
+  --wht-anlgs-D: #E6CFDA;
+  --wht-anlgs-E: #FEE4FE;
+
+  /* Compound - white centered */
+  --wht-cmpnd-A: #C9BBB5;
+  --wht-cmpnd-B: #966C5A;
+  --wht-cmpnd-C: #FDFDFD;
+  --wht-cmpnd-D: #BEFDBE;
+  --wht-cmpnd-E: #BCC9B5;
+
+  /* Split Complementary - white centered*/
+  --wht-spltcomp-A: #A4B09E;
+  --wht-spltcomp-B: #F4FCF0;
+  --wht-spltcomp-C: #FDFDFD;
+  --wht-spltcomp-D: #9EB0AD;
+  --wht-spltcomp-E: #E3FCF9;
+
+  /* Split Complementary- green centered */
+  --grn-spltcomp-A: #322394;
+  --grn-spltcomp-B: #422BE0;
+  --grn-spltcomp-C: #B3E01F;
+  --grn-spltcomp-D: #94065B;
+  --grn-spltcomp-E: #E0148E;
+
+	--primary-color: #FDFDFD;    /* 60% */
+	--secondary-color: #4B1EE1;  /* 30% */
+	--support-color: #B3E01F;    /* 10% */
+
+	/* SHADOWS */
+	--primary-shadow-low: 0 2px 2px hsla(0deg, 0%, 50%, 0.7);
+	--primary-shadow-med:
+		0 4px 4px hsla(0deg, 0%, 60%, 0.35),
+		0 8px 8px hsla(0deg, 0%, 70%, 0.2),
+		0 16px 16px hsla(0deg, 0%, 90%, 0.1);
+  --primary-shadow-high:
+    0 4px 4px hsla(0deg, 0%, 60%, 0.35),
+    0 8px 8px hsla(0deg, 0%, 70%, 0.35),
+    0 16px 16px hsla(0deg, 0%, 70%, 0.2),
+    0 32px 32px hsla(0deg, 0%, 90%, 0.2),
+    0 64px 64px hsla(0deg, 0%, 90%, 0.1);
+	--secondary-shadow-low: 0 1px 1px hsla(254deg, 76%, 10%, 0.7);
+  --secondary-shadow-med:
+    0 2px 2px hsla(254deg, 76%, 10%, 0.35),
+    0 4px 4px hsla(254deg, 76%, 20%, 0.35),
+    0 8px 8px hsla(254deg, 76%, 40%, 0.35);
+  --secondary-shadow-high:
+    0 4px 4px hsla(254deg, 76%, 10%, 0.18),
+    0 8px 8px hsla(254deg, 76%, 20%, 0.18),
+    0 16px 16px hsla(254deg, 76%, 20%, 0.18),
+    0 32px 32px hsla(254deg, 76%, 40%, 0.18),
+    0 64px 64px hsla(254deg, 76%, 40%, 0.18);
+    --support-shadow-low: 0 1px 1px hsla(74deg, 76%, 10%, 0.7);
+    --support-shadow-med:
+      0 2px 2px hsla(74deg, 76%, 10%, 0.35),
+      0 4px 4px hsla(74deg, 76%, 20%, 0.35),
+      0 8px 8px hsla(74deg, 76%, 40%, 0.35);
+    --support-shadow-high:
+      0 4px 4px hsla(74deg, 76%, 10%, 0.18),
+      0 8px 8px hsla(74deg, 76%, 20%, 0.18),
+      0 16px 16px hsla(74deg, 76%, 20%, 0.18),
+      0 32px 32px hsla(74deg, 76%, 40%, 0.18),
+      0 64px 64px hsla(74deg, 76%, 40%, 0.18);
+
+	/* SPACING */
+	--single-space: 10px;
+
+	/* FONTS */
+
+  /* LAYERS - Associated with Z indexes */
+  --base-layer: 0;
+  --card-layer: 10;
+  --button-layer: 20;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: var(--secondary-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+

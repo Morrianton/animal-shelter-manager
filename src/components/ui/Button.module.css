@@ -1,0 +1,24 @@
+@import "../../index.css";
+
+.button {
+    z-index: var(--button-layer);
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: #FFF;
+    height: var(--button-sml-height);
+    width: var(--button-sml-width);
+    background-color: var(--skn-wldrns-A-med);
+    border: none;
+    border-radius: var(--radius-med) var(--radius-small);
+    cursor: pointer;
+    box-shadow: var(--primary-shadow-med);
+    padding: calc(0.5 * var(--single-space));
+    transition: all 0.05s ease-out;
+}
+
+.button:active {
+    background-color: var(--skn-wldrns-A-dark);
+    font-size: 1.09rem;
+    transform: scale(0.95, 0.95);
+    box-shadow: var(--primary-shadow-low);
+}
